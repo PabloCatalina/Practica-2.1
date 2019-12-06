@@ -12,4 +12,16 @@ select.dni{
     padding-right:15px;
     padding-left: 15px;
     padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
+
+select.range{
+    padding-right:23px;
+    padding-left: 22px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
+
+option{
+    text-align: left;
 }
