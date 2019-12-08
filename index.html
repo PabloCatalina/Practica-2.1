@@ -11,7 +11,7 @@
     <header></header>
     <main>
         <div class="caja">
-            <table>
+            <table class="A">
                 <tbody>
                     <tr>
                         <td><span>Tratamiento: *</span><br><input class="radio" type="radio" name="hm" value="h" required> Sr.
@@ -106,9 +106,9 @@
             </table>
 
             <fieldset>
-                <table>
+                <table class="B">
                     <tbody>
-                        <tr>
+                        <tr class="fila1">
                             <td><span>Tipo de via*</span>
                                 <br>
                                 <select class="range" name="menu">
@@ -119,11 +119,10 @@
                                 </select>
                             </td>
                             <td><span>Dirección*</span><br>
-                                <input type="email" name="correo" size="50">
+                                <input type="email" name="correo" size="25">
                             </td>
-                            <td><span>Numero*</span><br><input class="range" type="text" name="numero" maxlength="2" size="8">
-                            </td>
-                            <td><span>Piso</span><br><input class="range" type="text" name="piso" maxlength="2" size="8"></td>
+                            <td><span class="numero">Numero*</span><br><input class="numero" type="text" name="numero" maxlength="2" size="8"></td>
+                            <td><span class="piso">Piso</span><br><input class="piso" type="text" name="piso" maxlength="2" size="8"></td>
                         </tr>
                         <tr>
                             <td><span>Urb./Pol./Otros</span><br><input class="" type="text" name="text"></td>
@@ -160,16 +159,30 @@
                                     <option> Zaragoza </option>
                                   </select>
                             </td>
-                            <td><span>Codigo postal*</span><input class="" type="text" name="codigo" maxlength="5"></td>
+                            <td><span>Codigo postal*</span><input class="" type="text" name="codigo" maxlength="5" size="25"></td>
                         </tr>
                         <tr>
                             <td><span>Teléfono móvil:* <img src="img/interrogante.PNG"></span><input class="" type="text" name="telefono" maxlength="9"></td>
                             <td><span>Teléfono particular:* <img src="img/interrogante.PNG"></span><br><input class="" type="text" name="telefono" maxlength="9"></td>
-                            <td><span>Dirección e-mail:* <img src="img/interrogante.PNG"></span><input class="" type="email" name="correo" maxlength="9" size="60"></td>
+                            <td><span>Dirección e-mail:* <img src="img/interrogante.PNG"></span><input class="" type="email" name="correo" maxlength="9" size="28"></td>
                         </tr>
                     </tbody>
                 </table>
             </fieldset>
+            <hr>
+            <span>Para ofrecer un mejor servicio nos seria útil conocer si posee en otra entidad:</span><br>
+            <input class="cuadrado" type="radio" name="pensiones"> Plan de pensiones
+            <input class="cuadrado" type="radio" name="fondos"> Fondos
+            <input class="cuadrado" type="radio" name="acciones"> Acciones
+            <input class="cuadrado" type="radio" name="hipoteca"> Hipoteca
+            <input class="cuadrado" type="radio" name="prestamo"> Prestamo
+            <input class="cuadrado" type="radio" name="seguro"> Seguro de Vida
+            <hr>
+            <button class="boton" type="button"><img src="img/flecha.PNG" height="">Continuar</button>
+            <pre>Puede consultar en nuestra web o solicitar toda la <u>Información
+Precontractual</u> de nuestros productos. Al pulsar "Continuar" esta
+aceptando la <u>Cláusula de Protección de datos</u></pre>
+            <pre>(*) Los campos marcados con asterisco son obligatorios.</pre>
         </div>
     </main>
 </body>
