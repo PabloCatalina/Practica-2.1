@@ -4,8 +4,8 @@ input.fecha{
     padding-top: 3px;
 }
 
-input.radio{
-    
+input{
+    /* border-color: rgb(237,237,237); */
 }
 
 select.dni{
@@ -24,4 +24,10 @@ select.range{
 
 option{
     text-align: left;
+}
+
+fieldset{
+    margin-right: 1200px;
+    background-color: rgb(237,237,237);
+    margin-top: 20px;
 }
