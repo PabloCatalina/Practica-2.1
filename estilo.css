@@ -1,3 +1,4 @@
+/* ajuste de posición de los input y span */
 input.fecha{
     padding-right:15px;
     padding-left: 15px;
@@ -5,6 +6,51 @@ input.fecha{
     
 }
 
+input.apellido{
+    padding-left: 35px;
+}
+
+span.apellido2{ 
+    /* generico para los que estan separados por la derecha */
+    margin-left: 25px;
+}
+input.apellido2{
+    padding-left: 35px;
+    margin-left: 25px;
+}
+input.empresa{
+    margin-left: 25px;
+}
+select.nacion{
+    /* generico para los select que tienen el mismo tamaño */
+    padding-right:23px;
+    padding-left: 33px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
+select.residencia{
+    padding-right:23px;
+    padding-left: 33px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+    margin-left: 25px;
+}
+select.trabajo{
+    padding-right:23px;
+    padding-left: 83px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
+select.sector{
+    padding-left: 10px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
+select.ahorros{
+    padding-left: 18px;
+    padding-top: 3px;
+    background-color: rgb(237,237,237);
+}
 select.dni{
     padding-right:15px;
     padding-left: 15px;

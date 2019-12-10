@@ -17,8 +17,8 @@
                         <td><span>Tratamiento: *</span><br><input class="radio" type="radio" name="hm" value="h" required> Sr.
                             <input class="radio" type="radio" name="hm" value="h" required> Sra.</td>
                         <td><span>Nombre: *</span><br><input type="text" name="nombre" required></td>
-                        <td><span>Apellido 1: *</span><br><input type="text" name="nombre" required></td>
-                        <td><span>Apellido 2: *</span><br><input type="text" name="nombre" required></td>
+                        <td><span>Apellido 1: *</span><br><input class="apellido" type="text" name="nombre" required></td>
+                        <td><span class="apellido2">Apellido 2: *</span><br><input class="apellido2" type="text" name="nombre" required></td>
                     </tr>
                     <tr>
                         <td><span>Tipo Doc: *</span><br><select class="dni" name="menu">
@@ -37,14 +37,14 @@
                                 <option value="4">ITALIA</option>
                               </select>
                         </td>
-                        <td><span>Nacionalidad: *</span><br><select class="range" name="menu">
+                        <td><span>Nacionalidad: *</span><br><select class="nacion" name="menu">
                                 <option value="1">ESPAÑA</option>
                                 <option value="2">PORTUGAL</option>
                                 <option value="3">FRANCIA</option>
                                 <option value="4">ITALIA</option>
                               </select>
                         </td>
-                        <td><span>Segunda nacionalidad: *</span><br><select class="range" name="menu">
+                        <td><span>Segunda nacionalidad: *</span><br><select class="nacion" name="menu">
                                 <option value="1" selected>Ninguna</option>
                                 <option value="2">ESPAÑA</option>
                                 <option value="3">PORTUGAL</option>
@@ -52,7 +52,7 @@
                                 <option value="5">ITALIA</option>
                               </select>
                         </td>
-                        <td><span>País resiencia fiscal: *</span><br><select class="range" name="menu">
+                        <td><span class="apellido2">País resiencia fiscal: *</span><br><select class="residencia" name="menu">
                                 <option value="2">ESPAÑA</option>
                                 <option value="3">PORTUGAL</option>
                                 <option value="4">FRANCIA</option>
@@ -61,7 +61,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><span>Trabajo: *</span><br><select class="range" name="menu">
+                        <td><span>Trabajo: *</span><br><select class="trabajo" name="menu">
                             <option></option>
                             <option></option>
                             <option></option>
@@ -76,7 +76,7 @@
                                 <option>Pensionista</option>
                               </select>
                         </td>
-                        <td><span>Sector profesional: *</span><br><select class="range" name="menu">
+                        <td><span>Sector profesional: *</span><br><select class="sector" name="menu">
                                 <option></option>
                                 <option>No trabaja</option>
                                 <option>Banca</option>
@@ -87,7 +87,7 @@
                                 <option>Servicios</option>
                               </select>
                         </td>
-                        <td><span>Empresa: * <img src="img/interrogante.PNG"><br><input type="text" name="nombre"></span></td>
+                        <td><span class="apellido2">Empresa: * <img src="img/interrogante.PNG"><br><input class="empresa" type="text" name="nombre"></span></td>
                     </tr>
                     <tr>
                         <td><span>Popósito de la cuenta: *</span><br><select class="range" name="menu">
@@ -96,7 +96,7 @@
                               </select>
                         </td>
                         <!-- Cambiar la class/ajustar largo y ancho -->
-                        <td><span>Origen de sus ahorros: *</span><br><select class="dni" name="menu">
+                        <td><span>Origen de sus ahorros: *</span><br><select class="ahorros" name="menu">
                                 <option value="1" selected>Nomina o pensión</option>
                                 <option value="2">otro motivo</option>
                               </select>
@@ -171,12 +171,12 @@
             </fieldset>
             <hr>
             <span>Para ofrecer un mejor servicio nos seria útil conocer si posee en otra entidad:</span><br>
-            <input class="cuadrado" type="radio" name="pensiones"> Plan de pensiones
-            <input class="cuadrado" type="radio" name="fondos"> Fondos
-            <input class="cuadrado" type="radio" name="acciones"> Acciones
-            <input class="cuadrado" type="radio" name="hipoteca"> Hipoteca
-            <input class="cuadrado" type="radio" name="prestamo"> Prestamo
-            <input class="cuadrado" type="radio" name="seguro"> Seguro de Vida
+            <input class="cuadrado" type="radio" name="boton" value="1"> Plan de pensiones
+            <input class="cuadrado" type="radio" name="boton" value="2"> Fondos
+            <input class="cuadrado" type="radio" name="boton" value="3"> Acciones
+            <input class="cuadrado" type="radio" name="boton" value="4"> Hipoteca
+            <input class="cuadrado" type="radio" name="boton" value="5"> Prestamo
+            <input class="cuadrado" type="radio" name="boton" value="6"> Seguro de Vida
             <hr>
             <button class="boton" type="button"><img src="img/flecha.PNG" height="">Continuar</button>
             <pre>Puede consultar en nuestra web o solicitar toda la <u>Información
